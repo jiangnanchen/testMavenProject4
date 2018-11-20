@@ -1,0 +1,14 @@
+<suite name="Suite" parallel="false">
+  <test name="TestFirefox">
+  	<parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="ecshoptc.TestECShopBGLogin2"/>
+    </classes>
+  </test>
+  <test name="TestChrome">
+  	<parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="ecshoptc.TestECShopBGLogin2"/>
+    </classes>
+  </test>
+</suite>

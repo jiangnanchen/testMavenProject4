@@ -133,7 +133,7 @@
           <configuration>
           	 	<suiteXmlFiles>
                 <!--  <suiteXmlFile>src/test/java/com/jiangnan/testng.xml</suiteXmlFile>-->
-          		 <suiteXmlFile>src/test/java/tedu/testng.xml</suiteXmlFile>
+          		 <suiteXmlFile>src/test/java/ecshoptc/testng.xml</suiteXmlFile>
           		</suiteXmlFiles>
           </configuration>
          
