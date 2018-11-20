@@ -161,7 +161,7 @@ public class TestECShopBGLogin2 {
 	
 	}
   }
- @BeforeMethod
+/* @BeforeMethod
    public void beforeMethod() {
  	
  	 
@@ -173,10 +173,10 @@ public class TestECShopBGLogin2 {
  	 //工具类的实例化
  	 utl = new MyUtils(driver);
 
-   }
+   }*/
 
 
-/*@BeforeMethod
+@BeforeMethod
 @Parameters({"browserType"})
   public void beforeMethod(String bt) {
 	if(bt.equalsIgnoreCase("firefox")){
@@ -193,16 +193,9 @@ public class TestECShopBGLogin2 {
 	  driver = new ChromeDriver();
 	  Log.info("Chrome browser start 。。。。");
 	}
-	  //启动Firefox浏览器
-
-	//调用工具类的启动浏览器方法
-//	driver = MyUtils1.openBrowser("chrome");
-	
-	
 	 //工具类的实例化
 	 utl = new MyUtils(driver);
-
-  }*/
+  }
 
   @AfterMethod
   public void afterMethod() {
