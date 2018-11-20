@@ -5,10 +5,5 @@
       <class name="ecshoptc.TestECShopBGLogin2"/>
     </classes>
   </test>
-  <test name="TestChrome">
-  	<parameter name="browserType" value="chrome"/>
-    <classes>
-      <class name="ecshoptc.TestECShopBGLogin2"/>
-    </classes>
-  </test>
+
 </suite>
