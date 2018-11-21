@@ -35,7 +35,7 @@ public class TestECShopBGLogin2 {
  private boolean acceptNextAlert = true;
  
  //定义变量-登陆页面
- ECShopBGLoginPage 1lp;
+ ECShopBGLoginPage lp;
  //变量-登录后主页
  ECShopBGHomePage hp;
  //变量-登陆后头部页面
