@@ -139,7 +139,7 @@ public class TestECShopBGLogin2 {
 		assertFalse(utl.isAlertPresent());
 		Log.info("case5 finish!!!-chenjiangnan");
 		break;
-	case 6:
+	case 16:
 	  /*1.跳到系统信息页面“您输入的验证码不正确。”
 		2.数秒后返回后台登录界面
 		3.登录界面的输入为空*/
