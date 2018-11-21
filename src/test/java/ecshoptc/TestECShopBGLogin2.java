@@ -35,7 +35,7 @@ public class TestECShopBGLogin2 {
  private boolean acceptNextAlert = true;
  
  //定义变量-登陆页面
- ECShopBGLoginPage lp;
+ ECShopBGLoginPage 1lp;
  //变量-登录后主页
  ECShopBGHomePage hp;
  //变量-登陆后头部页面
@@ -139,7 +139,7 @@ public class TestECShopBGLogin2 {
 		assertFalse(utl.isAlertPresent());
 		Log.info("case5 finish!!!-chenjiangnan");
 		break;
-	case 16:
+	case 6:
 	  /*1.跳到系统信息页面“您输入的验证码不正确。”
 		2.数秒后返回后台登录界面
 		3.登录界面的输入为空*/
