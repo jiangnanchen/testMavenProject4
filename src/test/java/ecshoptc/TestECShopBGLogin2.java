@@ -185,13 +185,13 @@ public class TestECShopBGLogin2 {
 	  System.setProperty("webdriver.firefox.bin",
 	  "F:\\Program Files\\Fire\\firefox.exe");
 	  driver = new FirefoxDriver();
-	  Log.info("FireFox browser start 。。。。");
+	  Log.info("FireFox browser start ....");
 	} else if(bt.equalsIgnoreCase("chrome")){
 		//启动Chrome
 	  System.setProperty("webdriver.chrome.driver",
 	  "E:\\selenium_Driver\\chromedriver2.48.2.exe");
 	  driver = new ChromeDriver();
-	  Log.info("Chrome browser start 。。。。");
+	  Log.info("Chrome browser start ....");
 	}
 	 //工具类的实例化
 	 utl = new MyUtils(driver);

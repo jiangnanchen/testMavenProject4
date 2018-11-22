@@ -1,4 +1,8 @@
 <suite name="Suite" parallel="false">
+  <listeners>
+  	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
   <test name="TestFirefox">
   	<parameter name="browserType" value="firefox"/>
     <classes>
